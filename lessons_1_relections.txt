@@ -1,0 +1,38 @@
+How did viewong diff between two different versions of a file help you see the bug that was introduced?
+interesting question I say. It did so by showing the two lines of text nand how they had changed.
+Is this a question about how I felt or what I saw?
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I guess that if your new versions have bugs, you are able to find the the parts of the code that caused the bugs.
+
+What do you think are the pros and cons of manually choosing when to ocommit, like you do in Git, vs having versions automatically saved like Google Docs?
+
+Disadvantage of manual commit
+
+If the system crashes or shuts down unexpectedly and you have not committed you loose your work.
+
+It is very involving, you have to think about when to do it and then actually do it.
+
+manual committing let's you to add information that is useful to understanding how much has changed.
+
+also manual changes can be made at more meaningful intervals	
+
+How can you use the commands git log and git diff to view the history of files
+
+git log can be used to view details of all git commits for a repository.
+
+In particular the commit id can be used to retrieve the particular change that was made.
+
+When given 2 commit ids git diff can compare the changes between two commits
+
+Reflect: Confidence from Version Control
+
+How might using version control make you more confident to make chages that could break something?
+
+You can always revert back to a previous version that worked!
+
+Reflect: How Do you want to use Git
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+To get enough practice I will place create repositories for all of my files on Git.

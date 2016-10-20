@@ -1,0 +1,7 @@
+Reflect: Initializing a Repository
+
+What happens when you initialize a repository? Why do you need to do it?
+
+a hidden file that contains the meta data of the history of all files in the repository is created
+
+The file is calle .git
