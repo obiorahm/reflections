@@ -5,3 +5,38 @@ What happens when you initialize a repository? Why do you need to do it?
 a hidden file that contains the meta data of the history of all files in the repository is created
 
 The file is calle .git
+
+Reflection: Staging Area
+
+How is the staging area different from the working directory and the repository?
+
+What value do you think it offers?
+
+I'd like to find out? I'm not sure. This is one of my big questions about git - 
+
+Why add before commit?
+
+I've thought about it a little more.
+
+If we are working with the paradigm of logical changes, then if we make changes in 2 different files we can seperately commit those changes naming each change as we commit? I don't know!
+
+When to use Branches
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help
+
+E.g when you are creating a new verson a project that is more or less the same until the point of branching out
+
+Reflect: Merging Two Branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged, all changes to one branch are inco-operated into the other branch. The new branch becomes the new head and that branch has 2 heads.
+
+Reflect: Automatic vs Manual Merging
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+a. automatic merges are cleaner; there is less burden on the programmer to find out where things are in the code
+
+b.	manual conflict resolution is best when the same line of code has been altered and you need to consult with the writer of the code on what should be kept and what shouldn't.
+
