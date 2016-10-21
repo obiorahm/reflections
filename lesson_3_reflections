@@ -5,5 +5,33 @@ Why might you want to always pull changes manually rather than having Git automa
 For the same reasons why we make commits manually. 
 
 We donot want Git to get changes committed by other people that may make our code break or just make everything confusing.
-s
+
+
+Reflect: Forks, CLones, and Branches
+
+Describe the differences between forks, clones, and branches. When woould you use one instead of another.
+
+I'll use forks when I want to make modifications to someone elses code that may not care for my changes
+
+I'll use branches when the current version can stand alone completely by itself and the new branch only adds new features.
+
+And I'll use clone when I want to make a local copy of a git repository
+
+Reflect: Local copies of remote branches
+
+What is the benefit of having a copy of the last known state of the remote stored locally
+
+It helps you to track local changes from that point on and how they are different from the remote repository
+
+Reflect: COllaboration using Git and GitHub
+
+How would you collaborate without using Git ot GitHub? What would be easier and what would be harder?
+
+We would make sure to use modular programming and define interfaces; funtions; and APIs for accessibility.
+
+I would make sure that we didn't in any way on the same modules 
+
+We would share files on a remote server and run the programs at specific intervals to catch bugs 
+
+It would be hard - harder than if we used Github and Git
 
