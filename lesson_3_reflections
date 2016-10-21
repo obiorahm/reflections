@@ -1,1 +1,9 @@
+Reflect: Manual vs. Automatic pull
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+For the same reasons why we make commits manually. 
+
+We donot want Git to get changes committed by other people that may make our code break or just make everything confusing.
+s
 
